@@ -1,0 +1,32 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20px auto 50px;
+    grid-gap: 1em;
+    height: 100vh;
+    padding: 20px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+iframe {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    border: 0;
+    display: none;
+}
+
+#close {
+    position: fixed;
+    display: none;
+    top: 0;
+    right: 0;
+    margin: 1em;
+}
+
+#preview {
+    grid-column: span 2;
+}
