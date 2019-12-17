@@ -17,6 +17,7 @@ iframe {
     height: 100vh;
     border: 0;
     display: none;
+    background-color: white;
 }
 
 #close {
